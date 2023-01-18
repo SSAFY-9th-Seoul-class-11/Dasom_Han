@@ -9,6 +9,7 @@
   * [2805. 농작물 수확하기](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/SWEA/swea_2805.java)  
 ## 2주차
 * SWEA
+  * [1220. Magnetic](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/SWEA/swea_1220.java)
 * BOJ
 ## 3주차
 * SWEA
