@@ -10,7 +10,7 @@
 ## 2주차
 * SWEA
   * [1220. Magnetic](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/SWEA/swea_1220.java)
-  * [1225. 암호 생성기]
+  * [1225. 암호 생성기](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/SWEA/swea_1225.java)
   * [2806. N-Queen]
 * BOJ
 ## 3주차
