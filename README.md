@@ -13,7 +13,7 @@
   * [1225. 암호 생성기](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/SWEA/swea_1225.java)
   * [2806. N-Queen]
 * BOJ
-  * [1931. 회의실 배정]
+  * [1931. 회의실 배정] (https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/BOJ/boj_1931.java)
 ## 3주차
 * SWEA
 * BOJ
