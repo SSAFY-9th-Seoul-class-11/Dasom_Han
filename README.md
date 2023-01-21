@@ -15,7 +15,7 @@
 * BOJ
   * [1931. 회의실 배정](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/BOJ/boj_1931.java)
   * [1541. 잃어버린 괄호]
-  * [1946. 신입사원]
+  * [1197. 최소 스패닝 트리]
 ## 3주차
 * SWEA
 * BOJ
