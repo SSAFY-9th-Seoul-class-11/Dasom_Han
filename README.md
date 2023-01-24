@@ -18,6 +18,9 @@
   * [1197. 최소 스패닝 트리](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/BOJ/boj_1197.java)
 ## 3주차
 * SWEA
+  * [1215. 회문1]
+  * [1249. 보급로]
+  * [1860. 진기의 최고급 붕어빵]
 * BOJ
 ## 4주차
 * SWEA
