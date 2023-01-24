@@ -12,7 +12,7 @@
   * [1220. Magnetic](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/SWEA/swea_1220.java)
   * [1225. 암호 생성기](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/SWEA/swea_1225.java)
   * [2806. N-Queen](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/SWEA/swea_2806.java)
-* BOJ
+* BOJ(그리디)
   * [1931. 회의실 배정](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/BOJ/boj_1931.java)
   * [1541. 잃어버린 괄호](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/BOJ/boj_1541.java)
   * [1197. 최소 스패닝 트리](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/BOJ/boj_1197.java)
@@ -21,7 +21,7 @@
   * [1215. 회문1]
   * [1249. 보급로]
   * [1860. 진기의 최고급 붕어빵]
-* BOJ
+* BOJ(DFS/BFS)
 ## 4주차
 * SWEA
 * BOJ
