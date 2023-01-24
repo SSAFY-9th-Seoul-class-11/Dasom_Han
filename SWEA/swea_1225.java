@@ -31,6 +31,7 @@ class Solution
 					if (temp <= 0) {
 						que.add(0);
 						cycle = false;
+						break;
 					} else {
 						que.add(temp);
 					}
