@@ -21,6 +21,7 @@
   * [1215. 회문1](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/swea_1215.java)
   * [1249. 보급로](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/swea_1249.java)
   * [1860. 진기의 최고급 붕어빵](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/swea_1860.java)
+  * [9229. 한빈이와 Spot Mart](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/swea_9229.java)
 * BOJ(DFS/BFS)
 ## 4주차
 * SWEA
