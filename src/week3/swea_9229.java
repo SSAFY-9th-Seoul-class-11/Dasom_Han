@@ -11,17 +11,23 @@ public class swea_9229 {
 	static int M;
 	
 	public static int largestWeight(int count, int weight, int two) {
+		// 무게가 M을 넘어가면 -1 리턴
 		if (weight > M) {
 			return -1;
 		}
+		// 과자 2개를 선택했다면 무게 리턴
 		if (two == 0) {
 			return weight;
 		}
+		// chips 배열을 끝까지 돌았는데도 리턴을 못했다면 -1 리턴
 		if (count == N) {
 			return -1;
 		}
+		// 과자를 든 경우
 		int plus = largestWeight(count + 1, weight + chips[count], two - 1);
+		// 과자를 안든 경우
 		int nope = largestWeight(count + 1, weight, two);
+		// 두 값 중 제일 무게가 큰 경우를 리턴
 		return Math.max(plus, nope);
 	}
 
@@ -48,7 +54,7 @@ public class swea_9229 {
 			int weight = 0;
 			// 두개 사야함
 			int two = 2;
-			largestWeight(idx, weight, two);
+			//재귀함수 돌려준다
 			System.out.println("#" + test_case + " " + largestWeight(idx, weight, two));
 		}
 	}
