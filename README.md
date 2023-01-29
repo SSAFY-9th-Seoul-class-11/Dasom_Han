@@ -23,7 +23,7 @@
   * [1860. 진기의 최고급 붕어빵](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/swea_1860.java)
   * [9229. 한빈이와 Spot Mart](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/swea_9229.java)
 * BOJ(DFS/BFS)
-  * [4963. 섬의 ](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/boj_4963.java)
+  * [4963. 섬의 개수](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/boj_4963.java)
 ## 4주차
 * SWEA
 * BOJ
