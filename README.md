@@ -24,6 +24,7 @@
   * [9229. 한빈이와 Spot Mart](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/algo_study/src/week3/swea_9229.java)
 * BOJ(DFS/BFS)
   * [4963. 섬의 개수](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/algo_study/src/week3/boj_4963.java)
+  * [10026. 적록색약](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/algo_study/src/week3/boj_10026.java)
 ## 4주차
 * SWEA
 * BOJ
