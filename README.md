@@ -27,6 +27,9 @@
   * [10026. 적록색약](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/algo_study/src/week3/boj_10026.java)
 ## 4주차
 * SWEA
+  * [1244. 최대 상금]()
+  * [6109. 추억의 2048게임]()
+  * [15758. 무한 문자열]()
 * BOJ
 ## 5주차
 * SWEA
