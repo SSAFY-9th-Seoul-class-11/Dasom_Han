@@ -36,4 +36,9 @@
   * [11000. 강의실 배정](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week4/boj_11000.java)
 ## 5주차
 * SWEA
+  * [9940. 순열1]
+  * [2819. 격자판의 숫자 이어 붙이기]
 * BOJ
+  * [1101. Fly me to the Alpha Centauri]
+* Programmers
+  * [징검다리]
