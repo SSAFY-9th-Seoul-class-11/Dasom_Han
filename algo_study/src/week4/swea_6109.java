@@ -129,8 +129,7 @@ public class swea_6109 {
 
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		int T = Integer.parseInt(bf.readLine());
-		// up, down, right, left
-		int[][] dirs = { { 1, 0 }, { -1, 0 }, { 0, 1 }, { 0, -1 } };
+		
 		// 테스트 케이스
 		for (int test_case = 1; test_case <= T; test_case++) {
 			StringTokenizer st = new StringTokenizer(bf.readLine());
