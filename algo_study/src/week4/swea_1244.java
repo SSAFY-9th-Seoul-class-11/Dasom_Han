@@ -58,19 +58,19 @@ public class swea_1244 {
 
 }
 
-def dfs(n):
-    global ans
-    if n == count:
-        ans = max(ans, int("".join(map(str, num_lst))))
-        return
-    for i in range(L-1):
-        for j in range(i+1, L):
-            num_lst[i], num_lst[j] = num_lst[j], num_lst[i]
-            chk = int("".join(map(str, num_lst)))
-            if (n, chk) not in visited:
-                dfs(n+1)
-                visited.append((n, chk))
-            num_lst[i], num_lst[j] = num_lst[j], num_lst[i]
+// def dfs(n):
+//     global ans
+//     if n == count:
+//         ans = max(ans, int("".join(map(str, num_lst))))
+//         return
+//     for i in range(L-1):
+//         for j in range(i+1, L):
+//             num_lst[i], num_lst[j] = num_lst[j], num_lst[i]
+//             chk = int("".join(map(str, num_lst)))
+//             if (n, chk) not in visited:
+//                 dfs(n+1)
+//                 visited.append((n, chk))
+//             num_lst[i], num_lst[j] = num_lst[j], num_lst[i]
             
 // T = int(input())
 // for tc in range(1, T+1):
