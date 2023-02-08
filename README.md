@@ -4,9 +4,12 @@
 
 ## 1주차
 * SWEA
-  * [1206. View](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week1/swea_1206.java)  
-  * [1208. Flatten](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week1/swea_1208.java)  
-  * [2805. 농작물 수확하기](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week1/swea_2805.java)  
+  * 1206_View 
+    * [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV134DPqAA8CFAYh) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week1/swea_1206.java) 
+  * 1208_Flatten 
+    * [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV139KOaABgCFAYh) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week1/swea_1208.java)
+  * 2805_농작물 수확하기
+    * [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GLXqKAWYDFAXB) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week1/swea_2805.java)  
 ## 2주차
 * SWEA
   * [1220. Magnetic](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week2/swea_1220.java)
