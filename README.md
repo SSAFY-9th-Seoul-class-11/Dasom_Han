@@ -64,5 +64,5 @@
 * BOJ(이분 탐색)
   * **1011_Fly me to the Alpha Centauri**
     * [문제 링크](https://www.acmicpc.net/problem/1011) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week5/boj_1011.java)
-  * **6209_징검다리**
+  * **6209_제자리 멀리뛰기**
     * [문제 링크](https://www.acmicpc.net/problem/6209) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week5/boj_6209.java)
