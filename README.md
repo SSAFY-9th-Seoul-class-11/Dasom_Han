@@ -74,9 +74,9 @@
   **1868.파핑파핑 지뢰찾기**
   [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LwsHaD1MDFAXc) / [코드]()  
   **5248.그룹 나누기**
-  [문제 링크](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AX--pdmaF9YDFARi) / [코드]()  
+  [문제 링크](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AX--pdmaF9YDFARi) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/swea_5248.java)  
 * BOJ(DP)  
   **2565.전깃줄**
   [문제 링크](https://www.acmicpc.net/problem/2565) / [코드]()  
-  **9465.그룹 나누기**
+  **9465.스티커**
   [문제 링크](https://www.acmicpc.net/problem/9465) / [코드]()  
