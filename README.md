@@ -26,7 +26,7 @@
  [문제 링크](https://www.acmicpc.net/problem/1931) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week2/boj_1931.java)  
  **1541.잃어버린 괄호**
  [문제 링크](https://www.acmicpc.net/problem/1541) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week2/boj_1541.java)  
- ❗**1197.최소 스패닝 트리**
+ ⭐**1197.최소 스패닝 트리**
  [문제 링크](https://www.acmicpc.net/problem/1197) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week2/boj_1197.java)  
 ## 3주차
 * SWEA  
@@ -45,7 +45,7 @@
  [문제 링크](https://www.acmicpc.net/problem/10026) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/boj_10026.java)  
 ## 4주차
 * SWEA  
- ❗**1244.최대 상금**
+ ⭐**1244.최대 상금**
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15Khn6AN0CFAYD) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week4/swea_1244.java)  
  **6109.추억의 2048게임**
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWbrg9uabZsDFAWQ) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week4/swea_6109.java)  
@@ -67,7 +67,7 @@
 * BOJ(이분 탐색)  
  **1011.Fly me to the Alpha Centauri**
  [문제 링크](https://www.acmicpc.net/problem/1011) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week5/boj_1011.java)  
- ❗**6209.제자리 멀리뛰기**
+ ⭐**6209.제자리 멀리뛰기**
  [문제 링크](https://www.acmicpc.net/problem/6209) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week5/boj_6209.java)  
  ## 6주차
  * SWEA  
@@ -76,7 +76,7 @@
   **5248.그룹 나누기**
   [문제 링크](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AX--pdmaF9YDFARi) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/swea_5248.java)  
 * BOJ(DP)  
-  ❗**2565.전깃줄**
+  ⭐**2565.전깃줄**
   [문제 링크](https://www.acmicpc.net/problem/2565) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/boj_2565.java)  
   **9465.스티커**
   [문제 링크](https://www.acmicpc.net/problem/9465) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/boj_9465.java)  
