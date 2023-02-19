@@ -7,65 +7,76 @@
 
 ## 1주차
 * SWEA  
- **1206_View** 
+ **1206.View** 
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV134DPqAA8CFAYh) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week1/swea_1206.java)  
- **1208_Flatten**
+ **1208.Flatten**
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV139KOaABgCFAYh) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week1/swea_1208.java)  
- **2805_농작물 수확하기**
+ **2805.농작물 수확하기**
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GLXqKAWYDFAXB) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week1/swea_2805.java)    
 ## 2주차
 * SWEA  
- **1220_Magnetic**
+ **1220.Magnetic**
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14hwZqABsCFAYD) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week2/swea_1220.java)  
- **1225_암호 생성기**
+ **1225.암호 생성기**
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14uWl6AF0CFAYD) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week2/swea_1225.java)  
- **2806_N-Queen**
+ **2806.N-Queen**
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GKs06AU0DFAXB) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week2/swea_2806.java)  
 * BOJ(그리디)  
- **1931_회의실 배정**
+ **1931.회의실 배정**
  [문제 링크](https://www.acmicpc.net/problem/1931) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week2/boj_1931.java)  
- **1541_잃어버린 괄호**
+ **1541.잃어버린 괄호**
  [문제 링크](https://www.acmicpc.net/problem/1541) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week2/boj_1541.java)  
- ❗**1197_최소 스패닝 트리**
+ ❗**1197.최소 스패닝 트리**
  [문제 링크](https://www.acmicpc.net/problem/1197) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week2/boj_1197.java)  
 ## 3주차
 * SWEA  
- **1215_회문1**
+ **1215.회문1**
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14QpAaAAwCFAYi) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/swea_1215.java)  
- **1249_보급로**
+ **1249.보급로**
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15QRX6APsCFAYD) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/swea_1249.java)  
- **1860_진기의 최고급 붕어빵**
+ **1860.진기의 최고급 붕어빵**
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LsaaqDzYDFAXc) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/swea_1860.java)  
- **9229_한빈이와 Spot Mart**
+ **9229.한빈이와 Spot Mart**
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AW8Wj7cqbY0DFAXN) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/swea_9229.java)  
 * BOJ(DFS/BFS)  
- **4963_섬의 개수**
+ **4963.섬의 개수**
  [문제 링크](https://www.acmicpc.net/problem/4963) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/boj_4963.java)  
- **10026_적록색약**
+ **10026.적록색약**
  [문제 링크](https://www.acmicpc.net/problem/10026) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/boj_10026.java)  
 ## 4주차
 * SWEA  
- ❗**1244_최대 상금**
+ ❗**1244.최대 상금**
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15Khn6AN0CFAYD) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week4/swea_1244.java)  
- **6109_추억의 2048게임**
+ **6109.추억의 2048게임**
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWbrg9uabZsDFAWQ) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week4/swea_6109.java)  
- **15758_무한 문자열**
+ **15758.무한 문자열**
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AYP5JmsqcngDFATW) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week4/swea_15758.java)  
 * BOJ(정렬)  
- **18870_좌표 압축**
+ **18870.좌표 압축**
  [문제 링크](https://www.acmicpc.net/problem/18870) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week4/boj_18870.java)  
- **1946_신입 사원**
+ **1946.신입 사원**
  [문제 링크](https://www.acmicpc.net/problem/1946) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week4/boj_1946.java)  
- **11000_강의실 배정**
+ **11000.강의실 배정**
  [문제 링크](https://www.acmicpc.net/problem/11000) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week4/boj_11000.java)  
 ## 5주차
 * SWEA  
- **9940_순열1**
+ **9940.순열1**
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXHx23oq0REDFAXR) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week5/swea_9940.java)  
- **2819_격자판의 숫자 이어 붙이기**
+ **2819.격자판의 숫자 이어 붙이기**
  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7I5fgqEogDFAXB) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week5/swea_2819.java)  
 * BOJ(이분 탐색)  
- **1011_Fly me to the Alpha Centauri**
+ **1011.Fly me to the Alpha Centauri**
  [문제 링크](https://www.acmicpc.net/problem/1011) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week5/boj_1011.java)  
- ❗**6209_제자리 멀리뛰기**
+ ❗**6209.제자리 멀리뛰기**
  [문제 링크](https://www.acmicpc.net/problem/6209) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week5/boj_6209.java)  
+ ## 6주차
+ * SWEA  
+  **1868.파핑파핑 지뢰찾기**
+  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LwsHaD1MDFAXc) / [코드]()  
+  **5248.그룹 나누기**
+  [문제 링크](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AX--pdmaF9YDFARi) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/swea_5248.java)  
+* BOJ(DP)  
+  **2565.전깃줄**
+  [문제 링크](https://www.acmicpc.net/problem/2565) / [코드]()  
+  **9465.스티커**
+  [문제 링크](https://www.acmicpc.net/problem/9465) / [코드]()  
