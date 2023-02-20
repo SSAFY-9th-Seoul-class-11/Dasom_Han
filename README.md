@@ -77,6 +77,6 @@
   [문제 링크](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AX--pdmaF9YDFARi) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/swea_5248.java)  
 * BOJ(DP)  
   ⭐**2565.전깃줄**
-  [문제 링크](https://www.acmicpc.net/problem/2565) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/boj_2565.java)  
+  [문제 링크](https://www.acmicpc.net/problem/2565) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/boj_2565.java) / [설명] (https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/전깃줄.png)
   **9465.스티커**
   [문제 링크](https://www.acmicpc.net/problem/9465) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/boj_9465.java)  
