@@ -36,7 +36,7 @@ public class swea_1868 { // 파핑파핑 지뢰찾기
 		}
 		// 8방향에 지뢰가 존재하지 않는 경우가 있다면?
 		// 계속 탐색한다
-		if (isZero) {
+		if (isZero && !que.isEmpty()) {
 			bomb[x][y] = 'o';
 			click++;
 			bfs(que);
@@ -69,7 +69,7 @@ public class swea_1868 { // 파핑파핑 지뢰찾기
 				}
 			}
 			// 또 0인 경우라면 bfs 돌린다
-			if(isZero) {
+			if(isZero && !que2.isEmpty()) {
 				bfs(que2);
 			}
 			
