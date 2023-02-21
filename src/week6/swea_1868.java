@@ -12,12 +12,14 @@ public class swea_1868 { // 파핑파핑 지뢰찾기
 	static int N;
 	static char[][] bomb;
 	static int click;
+	static boolean isZero;
 	static int[][] dir = { { 0, 1 }, { 0, -1 }, { 1, 0 }, { -1, 0 }, { 1, 1 }, { -1, -1 }, { 1, -1 }, { -1, 1 } };
 
+	// 0인 곳을 찾는다
 	private static void findZero(int x, int y) {
 		
 		Queue<int[]> que = new ArrayDeque<int[]>();
-		boolean isZero = true;
+		isZero = true;
 		
 		for (int i = 0; i < 8; i++) {
 			int nx = x + dir[i][0];
@@ -32,7 +34,9 @@ public class swea_1868 { // 파핑파핑 지뢰찾기
 				que.offer(new int[] {nx, ny});
 			}
 		}
-		if (!isZero && !que.isEmpty()) {
+		// 8방향에 지뢰가 존재하지 않는 경우가 있다면?
+		// 계속 탐색한다
+		if (isZero) {
 			bomb[x][y] = 'o';
 			click++;
 			bfs(que);
@@ -42,10 +46,14 @@ public class swea_1868 { // 파핑파핑 지뢰찾기
 	private static void bfs(Queue<int[]> que) {
 
 		while (!que.isEmpty()) {
+			
 			int[] temp = que.poll();
 			int x = temp[0];
 			int y = temp[1];
 			bomb[x][y] = 'o';
+			
+			Queue<int[]> que2 = new ArrayDeque<int[]>();
+			isZero = true;
 
 			for (int i = 0; i < 8; i++) {
 				int nx = x + dir[i][0];
@@ -53,11 +61,16 @@ public class swea_1868 { // 파핑파핑 지뢰찾기
 				if (nx < 0 || nx >= N || ny < 0 || ny >= N) 
 					continue;
 				if (bomb[nx][ny] == '*') {
+					isZero = false;
 					break;
 				}
 				if (bomb[nx][ny] == '.') {
-					que.offer(new int[] {nx, ny});
+					que2.offer(new int[] {nx, ny});
 				}
+			}
+			// 또 0인 경우라면 bfs 돌린다
+			if(isZero) {
+				bfs(que2);
 			}
 			
 		}
@@ -91,7 +104,7 @@ public class swea_1868 { // 파핑파핑 지뢰찾기
 				}
 			}
 			
-			// 나머지 부분
+			// 클릭되지 않은 나머지 부분
 			for (int i = 0; i < N; i++) {
 				for (int j = 0; j < N; j++) {
 					if (bomb[i][j] == '.') {
