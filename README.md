@@ -80,3 +80,14 @@
   [문제 링크](https://www.acmicpc.net/problem/2565) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/boj_2565.java) / [설명](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/전깃줄.png)  
   **9465.스티커**
   [문제 링크](https://www.acmicpc.net/problem/9465) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/boj_9465.java)  
+  ## 7주차
+ * 삼성 A형 기출 문제  
+  **17070.파이프 옮기기1**
+  [문제 링크](https://www.acmicpc.net/problem/17070) / [코드]  
+  **17406.배열 돌리기4**
+  [문제 링크](https://www.acmicpc.net/problem/17406) / [코드]  
+* 자유 문제(최단 경로 권장)  
+  ** ? **
+  [문제 링크] / [코드]   
+  ** ? **
+  [문제 링크] / [코드]  
