@@ -90,4 +90,4 @@
   **11403.경로 찾기**
   [문제 링크](https://www.acmicpc.net/problem/11403) / [코드]   
   **2567.색종이 - 2**
-  [문제 링크](https://www.acmicpc.net/problem/2567) / [코드]  
+  [문제 링크](https://www.acmicpc.net/problem/2567) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week7/boj_2567.java)
