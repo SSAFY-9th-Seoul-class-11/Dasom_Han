@@ -3,36 +3,33 @@ package week7;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 import java.util.StringTokenizer;
 
-public class boj_17406 { // 배열 돌리기 4
+public class Main { // 배열 돌리기 4
 
 	static int N, M, K;
 	static int[][] arr;
 	static int[][] calc;
 	static boolean[] isSelected;
 	static int[][] dir = { { 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
-	static int[] seq;
-	static List<int[]> seqList;
-	static List<Integer> sumList;
+	static int min;
 
 	private static void swap(int x, int y) {
-		int temp = seq[x];
-		seq[x] = seq[y];
-		seq[y] = temp;
+		int[] temp = calc[x];
+		calc[x] = calc[y];
+		calc[y] = temp;
 	}
 
-	private static void getSeq(int curr) { // 연산 순서의 경우를 구함
-
+	private static void getSeq(int curr) {
 		if (curr == K - 1) {
-			seqList.add(seq);
-			//
-			System.out.println("종류:" + Arrays.toString(seq));
-			//
+			int[][] arr2 = new int[N][M];
+			for (int r = 0; r < N; r++) {
+				System.arraycopy(arr[r], 0, arr2[r], 0, M);
+			}
+			for (int j = 0; j < K; j++) {
+				arr2 = spin(j, arr2);
+			}
+			min = Math.min(min, getMin(arr2)); // 모두 다 연산 후 배열의 값의 최소 업데이트
 			return;
 		}
 
@@ -45,16 +42,16 @@ public class boj_17406 { // 배열 돌리기 4
 
 	private static int getMin(int[][] arr) { // "배열의 값" 구하기
 
-		int min = Integer.MAX_VALUE;
+		int rowMin = Integer.MAX_VALUE;
 		for (int i = 0; i < N; i++) {
 			int sum = 0;
 			for (int j = 0; j < M; j++) {
 				sum += arr[i][j];
 			}
-			min = Math.min(min, sum);
+			rowMin = Math.min(rowMin, sum);
 		}
 
-		return min;
+		return rowMin;
 	}
 
 	private static int[][] spin(int calcIdx, int[][] origin) { // 회전
@@ -100,12 +97,7 @@ public class boj_17406 { // 배열 돌리기 4
 		K = Integer.parseInt(st.nextToken());
 		arr = new int[N][M];
 		calc = new int[K][3]; // 연산 종류 배열
-		seq = new int[K]; // 연산 순서
-		for (int i = 0; i < K; i++) {
-			seq[i] = i;
-		}
-		seqList = new ArrayList<int[]>(); // 연산 순서 리스트
-		sumList = new ArrayList<Integer>(); // 배열값 리스트
+		min = Integer.MAX_VALUE;
 
 		for (int i = 0; i < N; i++) {
 			st = new StringTokenizer(bf.readLine());
@@ -121,35 +113,10 @@ public class boj_17406 { // 배열 돌리기 4
 			}
 		}
 
-		getSeq(0); // 연산 순서의 경우를 구함
-		for (int i = 0; i < seqList.size(); i++) {
-			//
-			System.out.println(Arrays.toString(seqList.get(i)));
-			//
-			int[][] arr2 = new int[N][M];           // 연산 순서에 따라 배열이 달라지므로 새 배열 생성
-			for (int r = 0; r < N; r++) {
-				System.arraycopy(arr[r], 0, arr2[r], 0, M);   
-			}
-			for (int j = 0; j < K; j++) {
-				arr2 = spin(seqList.get(i)[j], arr2);  
-				//
-				for (int[] aa : arr2) {
-					for (int a : aa) {
-						System.out.print(a);
-					}
-					System.out.println();
-				}
-				System.out.println();
-				//
-			}
+		// ----------입력----------
 
-			sumList.add(getMin(arr2));
-		}
-		
-		
-
-		Collections.sort(sumList);
-		System.out.println(sumList.get(0));
+		getSeq(0);
+		System.out.println(min);
 	}
 
 }
