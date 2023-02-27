@@ -88,6 +88,6 @@
   [문제 링크](https://www.acmicpc.net/problem/17406) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week7/boj_17406.java)  
 * 자유 문제(최단 경로 권장)  
   **11403.경로 찾기**
-  [문제 링크](https://www.acmicpc.net/problem/11403) / [코드]   
+  [문제 링크](https://www.acmicpc.net/problem/11403) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week7/boj_11403.java)  
   **2567.색종이 - 2**
   [문제 링크](https://www.acmicpc.net/problem/2567) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week7/boj_2567.java)
