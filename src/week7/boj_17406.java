@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main { // 배열 돌리기 4
+public class boj_17406 { // 배열 돌리기 4
 
 	static int N, M, K;
 	static int[][] arr;
