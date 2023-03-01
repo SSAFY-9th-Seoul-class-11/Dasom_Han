@@ -80,14 +80,25 @@
   [문제 링크](https://www.acmicpc.net/problem/2565) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/boj_2565.java) / [설명](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/전깃줄.png)  
   **9465.스티커**
   [문제 링크](https://www.acmicpc.net/problem/9465) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/boj_9465.java)  
-  ## 7주차
+ ## 7주차
  * 삼성 A형 기출 문제  
-  **17070.파이프 옮기기1**
+  **17070.파이프 옮기기 1**
   [문제 링크](https://www.acmicpc.net/problem/17070) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week7/boj_17070.java)  
-  **17406.배열 돌리기4**
+  **17406.배열 돌리기 4**
   [문제 링크](https://www.acmicpc.net/problem/17406) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week7/boj_17406.java)  
 * 자유 문제(최단 경로 권장)  
   **11403.경로 찾기**
   [문제 링크](https://www.acmicpc.net/problem/11403) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week7/boj_11403.java)  
   **2567.색종이 - 2**
-  [문제 링크](https://www.acmicpc.net/problem/2567) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week7/boj_2567.java)
+  [문제 링크](https://www.acmicpc.net/problem/2567) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week7/boj_2567.java)  
+ ## 8주차
+ * 삼성 A형 기출 문제  
+  **17472.다리 만들기 2**
+  [문제 링크](https://www.acmicpc.net/problem/17472) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week8/boj_17472.java)  
+  **3019.테트리스**
+  [문제 링크](https://www.acmicpc.net/problem/3019) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week8/boj_3019.java)  
+* 자유 문제  
+  **?**
+  [문제 링크]() / [코드]()  
+  **?**
+  [문제 링크]() / [코드]()
