@@ -9,7 +9,7 @@ import java.util.Queue;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class Main {
+public class boj_17472 {
 
 	static class Bridge implements Comparable<Bridge> {
 		int no, weight;
