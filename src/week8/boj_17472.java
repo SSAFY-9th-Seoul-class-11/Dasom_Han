@@ -9,7 +9,7 @@ import java.util.Queue;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class boj_17472 {
+public class Main {
 
 	static class Bridge implements Comparable<Bridge> {
 		int no, weight;
@@ -38,20 +38,20 @@ public class boj_17472 {
 	static boolean[] visitedIsland;
 
 	private static void findPath(int startX, int startY, int index) {
+		
 		Stack<int[]> stack = new Stack<>();
-		stack.push(new int[] { startX, startY });
-		while (!stack.isEmpty()) {
-			int[] curr = stack.pop();
-			int x = curr[0];
-			int y = curr[1];
-			for (int d = 0; d <= 1; d++) {
+		for (int d = 0; d <= 1; d++) {
+			stack.push(new int[] { startX, startY });
+			while(!stack.isEmpty()) {
+				int[] curr = stack.pop();
+				int x = curr[0];
+				int y = curr[1];
 				int nx = x + dir[d][0];
 				int ny = y + dir[d][1];
 				if (nx >= N || ny >= M || map[nx][ny] == index)
 					continue;
 				if (map[nx][ny] == 0) {
 					stack.push(new int[] { nx, ny });
-					continue;
 				}
 				if (map[nx][ny] != index) { // 다른 섬에 도착!
 					int dist = (nx - startX) + (ny - startY) - 1;
@@ -120,15 +120,6 @@ public class boj_17472 {
 			}
 		}
 		// -------섬찾기-------
-		
-		////
-		for (int[] row : map) {
-			for (int col : row) {
-				System.out.print(col + " ");
-			}
-			System.out.println();
-		}
-		////
 
 		adjMatrix = new int[island + 1][island + 1]; // 섬과 섬 사이 최소 다리 길이 저장하는 배열
 		for (int i = 0; i <= island; i++) {
@@ -146,17 +137,6 @@ public class boj_17472 {
 			}
 		}
 		// -------가능한 모든 길찾기--------
-		
-		////
-		for (int[] row : adjMatrix) {
-			for (int col : row) {
-				if (col == Integer.MAX_VALUE)
-					col = 0;
-				System.out.print(col + " ");
-			}
-			System.out.println();
-		}
-		////
 
 		minLength = new int[island + 1];
 		for (int i = 0; i <= island; i++) {
