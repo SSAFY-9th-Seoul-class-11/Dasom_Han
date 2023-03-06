@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class boj_3019 {
+public class boj_3019 {  // 테트리스
 
 	static int C, P, answer;
 	static int[] field;
