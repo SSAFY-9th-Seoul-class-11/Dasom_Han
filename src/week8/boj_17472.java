@@ -142,7 +142,7 @@ public class boj_17472 {  // 다리 만들기 2
 		for (int i = 0; i <= island; i++) {
 			minLength[i] = Integer.MAX_VALUE;
 		}
-		// -------다리 최소 길이 배열 초기화-----
+		// -------다리 최소 길이 배열 초기화------
 
 		visitedIsland = new boolean[island + 1];
 		minLength[1] = 0; // 1번 섬부터 시작하자
@@ -165,7 +165,7 @@ public class boj_17472 {  // 다리 만들기 2
 				}
 			}
 		}
-
+		// --------Prim(PQ 사용)으로 최소신장트리--------
 		System.out.println(cnt == island ? res : -1);
 
 	}
