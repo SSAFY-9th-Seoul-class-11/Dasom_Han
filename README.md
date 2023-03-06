@@ -99,6 +99,6 @@
   [문제 링크](https://www.acmicpc.net/problem/3019) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week8/boj_3019.java)  
 * 자유 문제  
   **14501.퇴사**
-  [문제 링크](https://www.acmicpc.net/problem/14501) / [코드]()  
+  [문제 링크](https://www.acmicpc.net/problem/14501) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week8/boj_14501.java)  
   **14889.스타트와 링크**
-  [문제 링크](https://www.acmicpc.net/problem/14889) / [코드]()
+  [문제 링크](https://www.acmicpc.net/problem/14889) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week8/boj_14889.java)
