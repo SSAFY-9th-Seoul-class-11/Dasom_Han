@@ -95,6 +95,7 @@
  * 삼성 A형 기출 문제  
   **17472.다리 만들기 2**
   [문제 링크](https://www.acmicpc.net/problem/17472) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week8/boj_17472.java)  
+ * 지정 문제  
   **3019.테트리스**
   [문제 링크](https://www.acmicpc.net/problem/3019) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week8/boj_3019.java)  
 * 자유 문제  
