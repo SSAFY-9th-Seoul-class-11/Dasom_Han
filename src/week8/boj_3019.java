@@ -49,10 +49,6 @@ public class boj_3019 {  // 테트리스
 			if (field[i] < min) 
 				min = field[i];
 		}
-		// 정규화
-		for (int i = 0; i < C; i++) {
-			field[i] -= min;
-		}
 
 		findWays();
 		System.out.println(answer);
