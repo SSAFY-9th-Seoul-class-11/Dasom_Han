@@ -105,7 +105,7 @@
   [문제 링크](https://www.acmicpc.net/problem/14889) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week8/boj_14889.java)
  ## 9주차
  * 지정 문제 (BOJ)  
-  **1149.RGB 거리**
+  **1149.RGB거리**
   [문제 링크](https://www.acmicpc.net/problem/1149) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week9/boj_1149.java)  
   **2096.내려가기**
   [문제 링크](https://www.acmicpc.net/problem/2096) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week9/boj_2096.java)  
