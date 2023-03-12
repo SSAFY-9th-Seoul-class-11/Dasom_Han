@@ -110,7 +110,7 @@
   **2096.내려가기**
   [문제 링크](https://www.acmicpc.net/problem/2096) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week9/boj_2096.java)  
 * 자유 문제  
-  **?**
-  [문제 링크]() / [코드]()  
-  **?**
-  [문제 링크]() / [코드]()
+  **11053.가장 긴 증가하는 부분 수열**
+  [문제 링크](https://www.acmicpc.net/problem/11053) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week9/boj_11053.java)  
+  **7662.이중 우선순위 큐**
+  [문제 링크](https://www.acmicpc.net/problem/7662) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week9/boj_7662.java)
