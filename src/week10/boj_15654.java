@@ -19,6 +19,7 @@ public class boj_15654 {
 				sb.append(selected[i] + " ");
 			}
 			sb.append("\n");
+			return;
 		}
 		for (int i = 0; i < N; i++) {
 			if (!visited[i]) {
