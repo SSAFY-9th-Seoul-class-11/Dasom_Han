@@ -121,7 +121,7 @@
   **2206.벽 부수고 이동하기**
   [문제 링크](https://www.acmicpc.net/problem/2206) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week10/boj_2206.java)  
 * 자유 문제  
-  **?**
-  [문제 링크]() / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week10)  
+  **2178.미로 탐색**
+  [문제 링크](https://www.acmicpc.net/problem/2178) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week10/boj_2178.java)  
   **?**
   [문제 링크]() / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week10)
