@@ -123,5 +123,5 @@
 * 자유 문제  
   **2178.미로 탐색**
   [문제 링크](https://www.acmicpc.net/problem/2178) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week10/boj_2178.java)  
-  **?**
-  [문제 링크]() / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week10)
+  **2156.포도주 시식**
+  [문제 링크](https://www.acmicpc.net/problem/2156) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week10/boj_2156_포도주시식.java)
