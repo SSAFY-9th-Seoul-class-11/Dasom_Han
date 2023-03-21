@@ -118,10 +118,10 @@
  * 지정 문제 (BOJ)  
   **15654.N과 M (5)**
   [문제 링크](https://www.acmicpc.net/problem/15654) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week10/boj_15654.java)  
-  **2206.벽 부수고 이동하기**
+  ⭐**2206.벽 부수고 이동하기**
   [문제 링크](https://www.acmicpc.net/problem/2206) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week10/boj_2206_%EB%B2%BD%EB%B6%80%EC%88%98%EA%B3%A0%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0.java)  
 * 자유 문제  
   **2178.미로 탐색**
   [문제 링크](https://www.acmicpc.net/problem/2178) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week10/boj_2178.java)  
-  **2156.포도주 시식**
+  ⭐**2156.포도주 시식**
   [문제 링크](https://www.acmicpc.net/problem/2156) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week10/boj_2156_포도주시식.java)
