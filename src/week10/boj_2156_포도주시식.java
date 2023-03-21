@@ -22,9 +22,9 @@ public class boj_2156_포도주시식 {
 
 		dp[0] = glasses[0];
 
-		for (int i = 1; i < N; i++) {
+		for (int i = 1; i < N; i++) {    // 3부터 시작하므로 0, 1, 2는 미리 처리
 			if (i == 1) {
-				dp[1] = dp[0] + glasses[1];
+				dp[1] = dp[0] + glasses[1];     
 			} else if (i == 2) {
 				dp[2] = Math.max(dp[1], Math.max(glasses[0] + glasses[2], glasses[1] + glasses[2]));
 			} else {
@@ -38,3 +38,7 @@ public class boj_2156_포도주시식 {
 	}
 
 }
+// 1234
+// OOXO
+// OXOO
+// XOOX
