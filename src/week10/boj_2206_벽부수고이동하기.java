@@ -1,3 +1,5 @@
+package week10;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -5,51 +7,73 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Main {
+class Pos {
+	int x, y, len;
+	boolean isBroken;
+
+	public Pos(int x, int y, int len, boolean isBroken) {
+		super();
+		this.x = x;
+		this.y = y;
+		this.len = len; // 지나간 거리의 길이
+		this.isBroken = isBroken; // 벽 부순 여부
+	}
+}
+
+public class boj_2206_벽부수고이동하기 {
 
 	static int N, M, res;
 	static int[][] map;
-	static int[][] lenMap;
-	static boolean[][][] visited;
 	static int[][] dir = { { 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
 
+//	벽이 아니면
+//		부신 벽이 여태까지 없었으면 -> visited[?][?][0] 방문 처리 + queue에 넣음
+//		벽을 한번 부신 적이 있으면 -> visited[?][?][1] 방문 처리 + queue에 넣음
+//	벽이면
+//		한번도 벽을 부신 적이 없으면 부수고 -> visited[?][?][1] 방문 처리 + queue에 넣음
+	
 	private static void bfs(int startX, int startY) {
-		Queue<int[]> que = new ArrayDeque<>();
-		que.offer(new int[] { startX, startY });
-		int x = 0;
-		int y = 0;
-		visited[0][0][0] = true;
-		lenMap[x][y] = 1;
-		loop: while (!que.isEmpty()) {
-			int[] temp = que.poll();
-			x = temp[0];
-			y = temp[1];
+
+		boolean[][][] visited = new boolean[N][M][2];
+		visited[startX][startY][0] = true;  // 벽을 안 부수고 방문
+		visited[startX][startY][1] = true;  // 벽을 부수고 방문
+
+		Queue<Pos> que = new ArrayDeque<>();
+		que.offer(new Pos(startX, startY, 1, false));
+
+		while (!que.isEmpty()) {
+			Pos temp = que.poll();
+			int x = temp.x;
+			int y = temp.y;
+			int len = temp.len;
+			boolean isBroken = temp.isBroken;
+
+			if (x == N - 1 && y == M - 1) { // 끝까지 간 경우
+				res = Math.min(res, len);
+			}
+
 			for (int d = 0; d < 4; d++) {
 				int nx = x + dir[d][0];
-				int ny = y + dir[d][1]; 
+				int ny = y + dir[d][1];
 				if (nx < 0 || nx >= N || ny < 0 || ny >= M) // 범위를 넘어가면
 					continue;
-				if (visited[x][y][1] && map[nx][ny] == 1) // 벽을 두번 만난 경우
-					continue;
-				if (visited[nx][ny][0] && visited[nx][ny][1]) // (벽을 부수고 갔거나 안 부수고 간 두 경우 다) 지나왔다면..
-					continue;
-				if (nx == N - 1 && ny == M - 1) {  // 끝까지 간 경우
-					lenMap[nx][ny] = lenMap[x][y] + 1;
-					x = nx;
-					y = ny;
-					break loop;
+				if (map[nx][ny] == 1) {  // 다음 위치가 벽일 때
+					// 이미 벽을 부수고 왔다면 패스
+					if (!isBroken && !visited[nx][ny][1]) {  // 현재까지 벽을 부순 적이 없고(두번 깰 수는 없다) 부수고 방문한 적이 없다면
+						que.add(new Pos(nx, ny, len + 1, true));
+						visited[nx][ny][1] = true;
+					}
+				} else {  // 다음 위치가 길일 때
+					if (isBroken && !visited[nx][ny][1]) { // 현재까지 벽을 부순 적이 있고 부수고 방문한 적이 없다면
+						que.add(new Pos(nx, ny, len + 1, true));
+						visited[nx][ny][1] = true;
+					} else if (!isBroken && !visited[nx][ny][0]) {  // 현재까지 벽을 부순 적이 없고 부수지 않고 방문한 적이 없다면
+						que.add(new Pos(nx, ny, len + 1, false));
+						visited[nx][ny][0] = true;
+					}
 				}
-				if (!visited[x][y][1] && map[nx][ny] == 1) { // 벽을 1번 만난 경우
-					visited[nx][ny][1] = true;
-				} else if (!visited[x][y][0] && map[nx][ny] == 0) {  // 벽을 안 만난 경우
-					visited[nx][ny][0] = true;
-				}
-				lenMap[nx][ny] = lenMap[x][y] + 1;
-				que.offer(new int[] { nx, ny }); // 벽이 없거나 1번 부순 경우
 			}
 		}
-		if (x != N - 1 && y != M - 1)
-			lenMap[N - 1][M - 1] = -1;   // 끝까지 못가면 -1
 	}
 
 	public static void main(String[] args) throws IOException {
@@ -58,8 +82,7 @@ public class Main {
 		N = Integer.parseInt(st.nextToken());
 		M = Integer.parseInt(st.nextToken());
 		map = new int[N][M];
-		lenMap = new int[N][M];
-		visited = new boolean[N][M][2]; // 방문 배열, 벽 없이 왔을 때와 벽 한번 깨고 왔을 때
+		res = Integer.MAX_VALUE;
 		for (int i = 0; i < N; i++) {
 			String temp = bf.readLine();
 			for (int j = 0; j < M; j++) {
@@ -68,6 +91,6 @@ public class Main {
 		}
 
 		bfs(0, 0);
-		System.out.println(lenMap[N - 1][M - 1]);
+		System.out.println(res == Integer.MAX_VALUE ? -1 : res);
 	}
 }
