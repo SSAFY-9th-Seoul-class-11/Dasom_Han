@@ -28,7 +28,7 @@ public class boj_13549_숨바꼭질3 {
 			location[currLoc] = time;
 			if (currLoc == K)
 				return;
-			if (isValid(currLoc * 2))
+			if (isValid(currLoc * 2))  // *2하는 게 가장 빨리 도착해서 먼저 써줌..
 				que.offer(new int[] { currLoc * 2, time });
 			if (isValid(currLoc - 1))
 				que.offer(new int[] { currLoc - 1, time + 1 });
@@ -45,7 +45,7 @@ public class boj_13549_숨바꼭질3 {
 		K = sc.nextInt(); // 동생 위치
 		location = new int[100001]; // 수직선
 		for (int i = 0; i < 100001; i++) {
-			location[i] = -1;  // -1로 초기화
+			location[i] = -1;  // *2하는 경우는 시간이 0이므로 -1로 초기화
 		}
 		bfs();
 		System.out.println(location[K]);

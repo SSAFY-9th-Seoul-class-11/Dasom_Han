@@ -9,6 +9,7 @@ public class boj_13913_숨바꼭질4 {
 
 	static final int MAX = 100001;
 	static int[] location, parent;
+	static boolean[] visited;
 	static int N, K;
 	static StringBuilder sb;
 
@@ -17,18 +18,16 @@ public class boj_13913_숨바꼭질4 {
 		int last = K;
 		while (last != N) {
 			stack.push(last);
-			last = parent[last];
+			last = parent[last];  // K부터 거꾸로, 즉 부모 노드를 찾아 push한다
 		}
 		stack.push(last);
-		while(!stack.isEmpty()) {
-			sb.append(stack.pop() + " ");
+		while (!stack.isEmpty()) { 
+			sb.append(stack.pop() + " ");  //pop하면 수빈-동생 순서대로 경로 출력
 		}
 	}
 
 	private static boolean isValid(int loc) {
 		if (loc < 0 || loc > 100000)
-			return false;
-		if (location[loc] != 0)
 			return false;
 		return true;
 	}
@@ -47,16 +46,19 @@ public class boj_13913_숨바꼭질4 {
 				location[curr] = time;
 				if (curr == K)
 					return;
-				if (isValid(curr - 1)) {
+				if (isValid(curr - 1) && !visited[curr - 1]) {
 					que.offer(curr - 1);
+					visited[curr - 1] = true;
 					parent[curr - 1] = curr;
 				}
-				if (isValid(curr + 1)) {
+				if (isValid(curr + 1) && !visited[curr + 1]) {
 					que.offer(curr + 1);
+					visited[curr + 1] = true;
 					parent[curr + 1] = curr;
 				}
-				if (isValid(curr * 2)) {
+				if (isValid(curr * 2) && !visited[curr * 2]) {
 					que.offer(curr * 2);
+					visited[curr * 2] = true;
 					parent[curr * 2] = curr;
 				}
 			}
@@ -71,8 +73,9 @@ public class boj_13913_숨바꼭질4 {
 
 		N = sc.nextInt();
 		K = sc.nextInt();
-		location = new int[MAX];
-		parent = new int[MAX];
+		location = new int[MAX];  // 위치별 시간 저장 배열
+		parent = new int[MAX];  // 이전 위치 저장 배열
+		visited = new boolean[MAX];  // 방문 처리
 		sb = new StringBuilder();
 
 		find();
