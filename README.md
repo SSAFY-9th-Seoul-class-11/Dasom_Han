@@ -136,4 +136,14 @@
   [문제 링크](https://www.acmicpc.net/problem/13913) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week11/boj_13913_%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%884.java)  
   **3307.최장 증가 부분 수열**
   [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBOKg-a6l0DFAWr) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week11/swea_3307_%EC%B5%9C%EC%9E%A5%EC%A6%9D%EA%B0%80%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4.java)
-
+## 12주차
+ * 지정 문제   
+  **11404.플로이드**
+  [문제 링크](https://www.acmicpc.net/problem/11404) / [코드]()  
+  **12865.평범한 배낭**
+  [문제 링크](https://www.acmicpc.net/problem/12865) / [코드]()  
+  **9935.문자열 폭발**
+  [문제 링크](https://www.acmicpc.net/problem/9935) / [코드]()  
+* 자유 문제  
+  ****
+  [문제 링크]() / [코드]()
