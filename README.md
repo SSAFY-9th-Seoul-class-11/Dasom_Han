@@ -130,10 +130,20 @@
   **1918.후위 표기식**
   [문제 링크](https://www.acmicpc.net/problem/1918) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week11/boj_1918_%ED%9B%84%EC%9C%84%ED%91%9C%EA%B8%B0%EC%8B%9D.java)  
   **13549.숨바꼭질 3**
-  [문제 링크](https://www.acmicpc.net/problem/13549) / [코드]()  
+  [문제 링크](https://www.acmicpc.net/problem/13549) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week11/boj_13549_%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%883.java)  
 * 자유 문제  
-  ** **
-  [문제 링크](https://www.acmicpc.net/problem/) / [코드]()  
-  ** **
-  [문제 링크](https://www.acmicpc.net/problem/) / [코드]()
-
+  **13913.숨바꼭질 4**
+  [문제 링크](https://www.acmicpc.net/problem/13913) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week11/boj_13913_%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%884.java)  
+  **3307.최장 증가 부분 수열**
+  [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBOKg-a6l0DFAWr) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week11/swea_3307_%EC%B5%9C%EC%9E%A5%EC%A6%9D%EA%B0%80%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4.java)
+## 12주차
+ * 지정 문제   
+  **11404.플로이드**
+  [문제 링크](https://www.acmicpc.net/problem/11404) / [코드]()  
+  **12865.평범한 배낭**
+  [문제 링크](https://www.acmicpc.net/problem/12865) / [코드]()  
+  **9935.문자열 폭발**
+  [문제 링크](https://www.acmicpc.net/problem/9935) / [코드]()  
+* 자유 문제  
+  ****
+  [문제 링크]() / [코드]()
