@@ -145,5 +145,5 @@
   **9935.문자열 폭발**
   [문제 링크](https://www.acmicpc.net/problem/9935) / [코드]()  
 * 자유 문제  
-  ****
-  [문제 링크]() / [코드]()
+  **4193.수영대회 결승전**
+  [문제 링크](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWKaG6_6AGQDFARV) / [코드]()
