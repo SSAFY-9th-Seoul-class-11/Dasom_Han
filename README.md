@@ -146,4 +146,4 @@
   [문제 링크](https://www.acmicpc.net/problem/9935) / [코드]()  
 * 자유 문제  
   **4193.수영대회 결승전**
-  [문제 링크](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWKaG6_6AGQDFARV) / [코드]()
+  [문제 링크](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWKaG6_6AGQDFARV) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week12/swea_4193_%EC%88%98%EC%98%81%EB%8C%80%ED%9A%8C%EA%B2%B0%EC%8A%B9%EC%A0%84_%ED%95%9C%EB%8B%A4%EC%86%9C.java)
