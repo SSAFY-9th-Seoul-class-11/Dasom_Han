@@ -143,7 +143,7 @@
   **12865.평범한 배낭**
   [문제 링크](https://www.acmicpc.net/problem/12865) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week12/boj_12865_%ED%8F%89%EB%B2%94%ED%95%9C%EB%B0%B0%EB%82%AD.java)  
   **9935.문자열 폭발**
-  [문제 링크](https://www.acmicpc.net/problem/9935) / [코드]()  
+  [문제 링크](https://www.acmicpc.net/problem/9935) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week12/boj_9935_%EB%AC%B8%EC%9E%90%EC%97%B4%ED%8F%AD%EB%B0%9C.java)  
 * 자유 문제  
   **4193.수영대회 결승전**
   [문제 링크](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWKaG6_6AGQDFARV) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week12/swea_4193_%EC%88%98%EC%98%81%EB%8C%80%ED%9A%8C%EA%B2%B0%EC%8A%B9%EC%A0%84_%ED%95%9C%EB%8B%A4%EC%86%9C.java)
