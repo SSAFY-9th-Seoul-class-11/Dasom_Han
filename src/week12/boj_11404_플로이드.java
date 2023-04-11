@@ -26,7 +26,7 @@ public class boj_11404_플로이드 {
 			int a = Integer.parseInt(st.nextToken());
 			int b = Integer.parseInt(st.nextToken());
 			int c = Integer.parseInt(st.nextToken());
-			arr[a][b] = Math.min(arr[a][b], c);
+			arr[a][b] = Math.min(arr[a][b], c);  // 버스 노선이 여러개이고 그 중 최소 비용 저장
 		}
 
 		for (int k = 1; k <= n; k++) {
@@ -34,7 +34,7 @@ public class boj_11404_플로이드 {
 				if (i == k)
 					continue;
 				for (int j = 1; j <= n; j++) {
-					if (i == j)
+					if (i == j)  // 이 조건이 없으면 INF가 나와버림..
 						continue;
 					if (arr[i][j] > arr[i][k] + arr[k][j]) {
 						arr[i][j] = arr[i][k] + arr[k][j];
@@ -46,7 +46,7 @@ public class boj_11404_플로이드 {
 		for (int i = 1; i <= n; i++) {
 			for (int j = 1; j <= n; j++) {
 				if (arr[i][j] == INF) {
-					arr[i][j] = 0;
+					arr[i][j] = 0;  // INF로 해놨던거 0으로 
 				}
 				sb.append(arr[i][j] + " ");
 			}
