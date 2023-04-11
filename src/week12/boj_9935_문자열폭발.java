@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
-
+// swea 비밀번호와 유사
 public class boj_9935_문자열폭발 {
 
 	public static void main(String[] args) throws IOException {
