@@ -8,10 +8,6 @@ public class Main_2239_스도쿠_한다솜 {
 	
 	static int[][] sdk;
 	
-	public static boolean fill(int i, int j, int k) {
-		return false;
-	}
-
 	public static void main(String[] args) throws IOException {
 		
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
@@ -23,12 +19,6 @@ public class Main_2239_스도쿠_한다솜 {
 			}
 		}
 		
-		for (int i = 0; i < 9; i++) {
-			for (int j = 0; j < 9; j++) {
-				if (sdk[i][j] == 0)
-					fill(i, j);
-			}
-		}
 		
 	}
 
