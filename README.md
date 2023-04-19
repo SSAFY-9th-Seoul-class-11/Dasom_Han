@@ -5,17 +5,30 @@
 
 알고리즘 열심히 해요~~!!🤗 
 
+ ## 14주차
+ * 지정 문제   
+  ** **
+  [문제 링크]() / [코드]()   
+  ** **
+  [문제 링크]() / [코드]()  
+  ** **
+  [문제 링크]() / [코드]()   
+* 자유 문제  
+  ** **
+  [문제 링크]() / [코드]()
+
  ## 13주차
  * 지정 문제   
   **2623.음악 프로그램**
   [문제 링크](https://www.acmicpc.net/problem/2623) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week13/Main_2623_%EC%9D%8C%EC%95%85%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%ED%95%9C%EB%8B%A4%EC%86%9C.java)   
   **2239.스도쿠**
-  [문제 링크](https://www.acmicpc.net/problem/2239) / [코드]()  
+  [문제 링크](https://www.acmicpc.net/problem/2239) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week13/Main_2239_%EC%8A%A4%EB%8F%84%EC%BF%A0_%ED%95%9C%EB%8B%A4%EC%86%9C.java)  
   **1916.최소비용 구하기**
   [문제 링크](https://www.acmicpc.net/problem/1916) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week13/Main_1916_%EC%B5%9C%EC%86%8C%EB%B9%84%EC%9A%A9%EA%B5%AC%ED%95%98%EA%B8%B0_%ED%95%9C%EB%8B%A4%EC%86%9C.java)   
 * 자유 문제  
   **2056.작업**
   [문제 링크](https://www.acmicpc.net/problem/2056) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week13/Main_2056_%EC%9E%91%EC%97%85_%ED%95%9C%EB%8B%A4%EC%86%9C.java)
+  
 ## 12주차
  * 지정 문제   
   **11404.플로이드**
@@ -27,6 +40,7 @@
 * 자유 문제  
   **4193.수영대회 결승전**
   [문제 링크](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWKaG6_6AGQDFARV) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week12/swea_4193_%EC%88%98%EC%98%81%EB%8C%80%ED%9A%8C%EA%B2%B0%EC%8A%B9%EC%A0%84_%ED%95%9C%EB%8B%A4%EC%86%9C.java)
+  
 ## 11주차
  * 지정 문제   
   **1918.후위 표기식**
@@ -38,6 +52,7 @@
   [문제 링크](https://www.acmicpc.net/problem/13913) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week11/boj_13913_%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%884.java)  
   **3307.최장 증가 부분 수열**
   [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBOKg-a6l0DFAWr) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week11/swea_3307_%EC%B5%9C%EC%9E%A5%EC%A6%9D%EA%B0%80%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4.java)
+  
 ## 10주차
  * 지정 문제 (BOJ)  
   **15654.N과 M (5)**
@@ -49,6 +64,7 @@
   [문제 링크](https://www.acmicpc.net/problem/2178) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week10/boj_2178.java)  
   ⭐**2156.포도주 시식**
   [문제 링크](https://www.acmicpc.net/problem/2156) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week10/boj_2156_포도주시식.java)
+  
  ## 9주차
  * 지정 문제 (BOJ)  
   **1149.RGB거리**
@@ -60,6 +76,7 @@
   [문제 링크](https://www.acmicpc.net/problem/11053) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week9/boj_11053.java)  
   **7662.이중 우선순위 큐**
   [문제 링크](https://www.acmicpc.net/problem/7662) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week9/boj_7662.java)
+  
 ## 8주차
  * 삼성 A형 기출 문제  
   **17472.다리 만들기 2**
@@ -72,6 +89,7 @@
   [문제 링크](https://www.acmicpc.net/problem/14501) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week8/boj_14501.java)  
   **14889.스타트와 링크**
   [문제 링크](https://www.acmicpc.net/problem/14889) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week8/boj_14889.java)
+  
  ## 7주차
  * 삼성 A형 기출 문제  
   **17070.파이프 옮기기 1**
@@ -83,6 +101,7 @@
   [문제 링크](https://www.acmicpc.net/problem/11403) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week7/boj_11403.java)  
   **2567.색종이 - 2**
   [문제 링크](https://www.acmicpc.net/problem/2567) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week7/boj_2567.java)  
+  
  ## 6주차
  * SWEA  
   ⭐**1868.파핑파핑 지뢰찾기**
@@ -94,6 +113,7 @@
   [문제 링크](https://www.acmicpc.net/problem/2565) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/boj_2565.java) / [설명](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/전깃줄.png)  
   **9465.스티커**
   [문제 링크](https://www.acmicpc.net/problem/9465) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week6/boj_9465.java)  
+  
 ## 5주차
 * SWEA  
  **9940.순열1**
@@ -105,6 +125,7 @@
  [문제 링크](https://www.acmicpc.net/problem/1011) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week5/boj_1011.java)  
  ⭐**6209.제자리 멀리뛰기**
  [문제 링크](https://www.acmicpc.net/problem/6209) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week5/boj_6209.java)  
+ 
 ## 4주차
 * SWEA  
  ⭐**1244.최대 상금**
@@ -120,6 +141,7 @@
  [문제 링크](https://www.acmicpc.net/problem/1946) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week4/boj_1946.java)  
  **11000.강의실 배정**
  [문제 링크](https://www.acmicpc.net/problem/11000) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week4/boj_11000.java)  
+ 
 ## 3주차
 * SWEA  
  **1215.회문1**
@@ -135,6 +157,7 @@
  [문제 링크](https://www.acmicpc.net/problem/4963) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/boj_4963.java)  
  **10026.적록색약**
  [문제 링크](https://www.acmicpc.net/problem/10026) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week3/boj_10026.java)  
+ 
 ## 2주차
 * SWEA  
  **1220.Magnetic**
@@ -150,6 +173,7 @@
  [문제 링크](https://www.acmicpc.net/problem/1541) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week2/boj_1541.java)  
  ⭐**1197.최소 스패닝 트리**
  [문제 링크](https://www.acmicpc.net/problem/1197) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week2/boj_1197.java)  
+ 
 ## 1주차
 * SWEA  
  **1206.View** 
