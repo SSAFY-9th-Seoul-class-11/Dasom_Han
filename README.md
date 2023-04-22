@@ -16,12 +16,12 @@
   **10942.팰린드롬?**
   [문제 링크](https://www.acmicpc.net/problem/10942) / [코드]()   
   **2040.사이클 게임**
-  [문제 링크](https://www.acmicpc.net/problem/20040) / [코드]()  
+  [문제 링크](https://www.acmicpc.net/problem/20040) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week14/Main_20040_%EC%82%AC%EC%9D%B4%ED%81%B4%EA%B2%8C%EC%9E%84_%ED%95%9C%EB%8B%A4%EC%86%9C.java)  
 * 자유 문제  
   **15651.N과 M (3)**
-  [문제 링크](https://www.acmicpc.net/problem/15651) / [코드]()   
+  [문제 링크](https://www.acmicpc.net/problem/15651) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week14/Main_15651_N%EA%B3%BCM3_%ED%95%9C%EB%8B%A4%EC%86%9C.java)   
   **15652.N과 M (4)**
-  [문제 링크](https://www.acmicpc.net/problem/15652) / [코드]()  
+  [문제 링크](https://www.acmicpc.net/problem/15652) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week14/Main_15652_N%EA%B3%BCM4_%ED%95%9C%EB%8B%A4%EC%86%9C.java)  
 
  ## 13주차
  * 지정 문제   
