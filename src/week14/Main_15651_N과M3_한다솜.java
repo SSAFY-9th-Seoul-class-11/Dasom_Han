@@ -2,13 +2,13 @@ package week14;
 
 import java.util.Scanner;
 
-public class Main_15652_N과M4_한다솜 {
+public class Main_15651_N과M3_한다솜 {
 
 	static int N, M;
 	static int[] arr;
 	static StringBuilder sb;
 
-	public static void comb(int cnt, int start) {
+	public static void comb(int cnt) {
 		if (cnt == M) {
 			for (int i = 0; i < M; i++) {
 				sb.append(arr[i] + " ");
@@ -17,9 +17,9 @@ public class Main_15652_N과M4_한다솜 {
 			return;
 		}
 
-		for (int i = start; i <= N; i++) {
+		for (int i = 1; i <= N; i++) {
 			arr[cnt] = i;
-			comb(cnt + 1, i);
+			comb(cnt + 1);
 		}
 	}
 
@@ -30,7 +30,7 @@ public class Main_15652_N과M4_한다솜 {
 		N = sc.nextInt();
 		M = sc.nextInt();
 		arr = new int[M];
-		comb(0, 1);
+		comb(0);
 		System.out.println(sb.toString());
 	}
 
