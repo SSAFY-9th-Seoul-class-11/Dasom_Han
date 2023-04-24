@@ -29,12 +29,19 @@ public class Main_10942_팰린드롬물음표_한다솜 {
 				dp[i][i + 1] = 1;
 		}
 		// 길이가 3이상일 때 끝 수와 자신이 같고, 그 사이 수가 팰린드롬이면 팰린드롬
-		for (int i = 1; i <= N - 2; i++) {
-			for (int j = 2; j <= N - i; j++) {
-				if (arr[i] == arr[i + j] && dp[i + 1][i + j - 1] == 1)
-					dp[i][i + j] = 1;
+		for (int i = 2; i < N; i++) {
+			for (int j = 1; j <= N - i; j++) {
+				if (arr[j] == arr[j + i] && dp[j + 1][j + i - 1] == 1)
+					dp[j][j + i] = 1;
 			}
 		}
+		
+//		for (int i = 1; i <= N - 2; i++) {
+//			for (int j = 2; j <= N - i; j++) {
+//				if (arr[i] == arr[i + j] && dp[i + 1][i + j - 1] == 1)
+//					dp[i][i + j] = 1;
+//			}
+//		}
 
 		int M = Integer.parseInt(bf.readLine());
 		for (int q = 1; q <= M; q++) {
