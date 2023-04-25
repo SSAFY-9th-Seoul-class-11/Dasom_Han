@@ -7,10 +7,14 @@
 
 ## 15주차
 * 지정 문제   
-  ** **
-  [문제 링크]() / [코드]()  
-  ** **
-  [문제 링크]() / [코드]()  
+  **1647.도시 분할 계획**
+  [문제 링크](https://www.acmicpc.net/problem/1647) / [코드]()  
+  **2342.Dance Dance Revolution**
+  [문제 링크](https://www.acmicpc.net/problem/2342) / [코드]()  
+  **2357.최솟값과 최댓값**
+  [문제 링크](https://www.acmicpc.net/problem/2357) / [코드]()  
+  **12100.2048(easy)**
+  [문제 링크](https://www.acmicpc.net/problem/12100) / [코드]()  
 * 자유 문제  
   ** **
   [문제 링크]() / [코드]()  
