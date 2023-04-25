@@ -21,7 +21,7 @@
  * 지정 문제   
   **10942.팰린드롬?**
   [문제 링크](https://www.acmicpc.net/problem/10942) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week14/Main_10942_%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC%EB%AC%BC%EC%9D%8C%ED%91%9C_%ED%95%9C%EB%8B%A4%EC%86%9C.java)   
-  **2040.사이클 게임**
+  **20040.사이클 게임**
   [문제 링크](https://www.acmicpc.net/problem/20040) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week14/Main_20040_%EC%82%AC%EC%9D%B4%ED%81%B4%EA%B2%8C%EC%9E%84_%ED%95%9C%EB%8B%A4%EC%86%9C.java)  
 * 자유 문제  
   **15651.N과 M (3)**
