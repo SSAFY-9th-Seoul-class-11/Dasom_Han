@@ -19,7 +19,7 @@ class Pos {
 }
 
 
-public class Main_16928_뱀과사다리게임_한다솜 {
+public class Main_16928_뱀과사다리게임 {
 
 	static int N, M;
 	static int[] arr;
