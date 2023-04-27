@@ -23,35 +23,43 @@ public class Main_16928_뱀과사다리게임 {
 
 		while (!que.isEmpty()) {
 			int now = que.poll();
-//			System.out.println(now);
 			if (now == 100) {
 				System.out.println(visited[now]);
-//				System.out.println(Arrays.toString(visited));
 				return;
 			}
 
 			int next;
-			if (arr[now] == now) { // 뱀이나 사다리가 없는 경우 주사위를 굴려 나올 수 있는 모든 곳으로 가본다
-				for (int dice = 1; dice <= 6; dice++) {
-					next = now + dice;
-					if (next > 100)
-						continue;
-					if (visited[next] == 0) {// 가지 않았다면 지금까지의 이동 횟수 + 1 넣기
-						visited[next] = visited[now] + 1;
-					} else {// 간 곳이라면 더 적게 걸린 이동 횟수로 업데이트
-						visited[next] = Math.min(visited[next], visited[now] + 1);
-					}
-					que.offer(next);
+			for (int i = 1; i <= 6; i++) {
+				next = now + i;
+				if (next > 100)
+					continue;
+				if (visited[arr[next]] == 0) {// 가지 않았다면 지금까지의 이동 횟수 + 1 넣기
+					visited[arr[next]] = visited[now] + 1;
+					que.offer(arr[next]);
 				}
-			} else { // 뱀이나 사다리가 있다면 그곳으로 간다
-				next = arr[now];
-				if (visited[next] == 0) {
-					visited[next] = visited[now]; // 주사위 안굴리고 바로 감
-				} else {
-					visited[next] = Math.min(visited[next], visited[now]);
-				}
-				que.offer(next);
 			}
+			
+//			if (arr[now] == now) { // 뱀이나 사다리가 없는 경우 주사위를 굴려 나올 수 있는 모든 곳으로 가본다
+//				for (int dice = 1; dice <= 6; dice++) {
+//					next = now + dice;
+//					if (next > 100)
+//						break;
+//					if (visited[next] == 0) {// 가지 않았다면 지금까지의 이동 횟수 + 1 넣기
+//						visited[next] = visited[now] + 1;
+//					} else {// 간 곳이라면 더 적게 걸린 이동 횟수로 업데이트
+//						visited[next] = Math.min(visited[next], visited[now] + 1);
+//					}
+//					que.offer(next);
+//				}
+//			} else { // 뱀이나 사다리가 있다면 그곳으로 간다
+//				next = arr[now];
+//				if (visited[next] == 0) {
+//					visited[next] = visited[now]; // 주사위 안굴리고 바로 감
+//				} else {
+//					visited[next] = Math.min(visited[next], visited[now]);
+//				}
+//				que.offer(next);
+//			}
 		}
 
 	}
