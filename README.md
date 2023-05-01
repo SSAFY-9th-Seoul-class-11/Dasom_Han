@@ -8,7 +8,7 @@
 ## 15주차
 * 지정 문제   
   **1647.도시 분할 계획**
-  [문제 링크](https://www.acmicpc.net/problem/1647) / [코드]()  
+  [문제 링크](https://www.acmicpc.net/problem/1647) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week15/Main_1647_%EB%8F%84%EC%8B%9C%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D.java)  
   **2342.Dance Dance Revolution**
   [문제 링크](https://www.acmicpc.net/problem/2342) / [코드]()  
   **2357.최솟값과 최댓값**
@@ -17,9 +17,9 @@
   [문제 링크](https://www.acmicpc.net/problem/12100) / [코드]()  
 * 자유 문제  
   **17404.RGB거리 2**
-  [문제 링크](https://www.acmicpc.net/problem/17404) / [코드]()  
+  [문제 링크](https://www.acmicpc.net/problem/17404) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week15/Main_17404_RGB%EA%B1%B0%EB%A6%AC2.java)  
   **16828.뱀과 사다리 게임**
-  [문제 링크](https://www.acmicpc.net/problem/16928) / [코드]()  
+  [문제 링크](https://www.acmicpc.net/problem/16928) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/src/week15/Main_16928_%EB%B1%80%EA%B3%BC%EC%82%AC%EB%8B%A4%EB%A6%AC%EA%B2%8C%EC%9E%84.java)  
 
  ## 14주차
  * 지정 문제   
